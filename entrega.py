@@ -253,7 +253,7 @@ while continuar:
     print("0. Salir")
     
     opcion= validar_int("Su opcion: ")
-    if opcion <= 0 or opcion >= 13:
+    if opcion < 0 or opcion >= 13:
         print("Por favor, ingrese una opción válida (1-15).")
         continue
     if opcion>=1 and opcion<=4:        
